@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Endless 2D Terrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 926cb4cae0461b04591a47e50baf8a8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PreviewLength: 100
+  Rules:
+  - SelectedTerrainStyle: 0
+    SelectedTerrainLength: 0
+    MinimumKeyVertexHeight: 0
+    MaximumKeyVertexHeight: 10
+    MinimumKeyVertexSpacing: 10
+    MaximumKeyVertexSpacing: 10
+    CalculatedVertexSpacing: 1
+    RuleLength: 300
+    MeshLength: 100
+    Angle: 0
+    ExpandedRules: 0
+    AllowedPrefabs: []
+  PrefabRules: []
+  MainMaterial: {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  MainMaterialXTiling: 1
+  MainMaterialYTiling: 1
+  MainMaterialRotation: 0
+  MainPlaneHeight: 10
+  MainPlaneFollowTerrainCurve: 0
+  TopMaterial: {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  TopMaterialXTiling: 1
+  TopMaterialYTiling: 1
+  TopMaterialRotation: 0
+  DrawTopMeshCollider: 1
+  DrawTopMeshRenderer: 1
+  TopPlaneHeight: 2
+  DetailMaterial: {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  DetailMaterialXTiling: 1
+  DetailMaterialYTiling: 1
+  DetailMaterialRotation: 0
+  DrawDetailMeshRenderer: 1
+  DetailPlaneHeight: 1
+  DetailPlaneFollowTerrainCurve: 0
+  DetailPlaneOffset: {x: 0, y: 0, z: 0}
+  CornerMeshWidth: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
