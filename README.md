@@ -34,7 +34,7 @@ We started working on the themes, and the game settings and soon enough we were 
 
 # Progress
 We are still developing the game and hope to finnish it by Q3 2018. 
-Also if you'd like to help us out or join our team, drop me a mail at <a href="mailto:tanmaysingh1226@gmail.com">tanmaysing1226@gmail.com</a>.
+Also if you'd like to help us out or join our team, drop me a mail at <a href="mailto:tanmaysingh1226@gmail.com">tanmaysingh1226@gmail.com</a>.
 
 That's it.
 
